@@ -1,3 +1,4 @@
+import javax.swing.plaf.synth.SynthSeparatorUI;
 
 public class MyClass {
 	private int a;
@@ -12,6 +13,10 @@ public class MyClass {
 
 	public MyClass(int a) {
 		this.a = a;
+	}
+	
+	public void abc(){
+		System.out.println("abccdddd");
 	}
 	
 	
